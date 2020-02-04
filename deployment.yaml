@@ -24,3 +24,5 @@ spec:
         - name: sample-app
           image: ponceps/sample-app:v1
           imagePullPolicy: Always
+          ports:
+            - containerPort: 8000
